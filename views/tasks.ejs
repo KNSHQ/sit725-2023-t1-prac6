@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasks</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tasks</h1>
+        </header>
+        <div>
+            <ul>
+                <% tasks.forEach(function(task, index) { %>
+                    <li><%= task %> <form action="/tasks/delete/<%= index %>" method="POST"><button>Delete</button></form></li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "sit725-2023-t1-prac6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "start-safe": "npm test && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KNSHQ/sit725-2023-t1-prac6.git"
+  },
+  "author": "Kanishk Rajvanshi (s222486026@deakin.edu.au)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KNSHQ/sit725-2023-t1-prac6/issues"
+  },
+  "homepage": "https://github.com/KNSHQ/sit725-2023-t1-prac6#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
